@@ -8,11 +8,11 @@ function Front() {
   return (
     <div className="w-full full-page">
       <div className="max-w-[80%] front-container mx-auto flex items-center justify-between">
-        <div className="w-full text-area  mt-[10%] px-3 py-3">
+        <div className=" text-area  mt-[10%]">
           <h3 className="text-[1.7rem] intro-text leading-none">
             Hello, it's me
           </h3>
-          <h1 className="text-[3rem] name">Shivam Katiyar</h1>
+          <h1 className="name">Shivam Katiyar</h1>
           <h3 className="text-[1.3rem] role">
             And I am a FullStack{" "}
             <span className="text-[#06b6d4] highlight">
@@ -36,7 +36,7 @@ function Front() {
           </div>
         </div>
 
-        <div className="w-full px-5 py-10 image-area">
+        <div className="w-[60%] px-5 py-10 image-area">
           <div
             style={{ boxShadow: "0 0 4.5rem #06b6d4" }}
             className="w-[25em] h-[25em] mt-10 rounded-full ml-20 image-box overflow-hidden"
