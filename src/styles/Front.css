@@ -1,0 +1,210 @@
+Container styles
+/* .front-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+  } */
+  
+  /* For smaller screens, stack the text and image vertically */
+  /* @media (max-width: 1024px) {
+    .front-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-area, .image-area {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .image-box {
+      margin-top: 2rem;
+    }
+  
+    h1, h3 {
+      text-align: center;
+    }
+  } */
+  
+  /* Text area responsive adjustments */
+  /* .text-area {
+    width: 50%;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideIn 1s forwards ease-out;
+  }
+  
+  @media (max-width: 1024px) {
+    .text-area {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .intro-text {
+      font-size: 1.5rem;
+    }
+  
+    .name {
+      font-size: 2.5rem;
+    }
+  
+    .role {
+      font-size: 1.1rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  } */
+  
+  /* Image area responsive adjustments */
+  /* .image-area {
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .image-area {
+      width: 100%;
+    }
+  
+    .image-box {
+      width: 20em;
+      height: 20em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .image-box {
+      width: 18em;
+      height: 18em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-box {
+      width: 15em;
+      height: 15em;
+    }
+  } */
+  
+  /* Keyframes for text animation */
+  /* @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
+  
+ /* Container styles */
+.front-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 1024px) {
+    .front-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-area, .image-area {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .image-box {
+      margin-top: 2rem;
+    }
+  }
+  
+  /* Text area styling */
+  .text-area {
+    width: 50%;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideIn 1s forwards ease-out;
+  }
+  
+  @media (max-width: 1024px) {
+    .text-area {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .intro-text {
+      font-size: 1.5rem;
+    }
+  
+    .name {
+      font-size: 2.5rem;
+    }
+  
+    .role {
+      font-size: 1.1rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Image area with responsive size adjustments */
+.image-area {
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  .image-box {
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 4.5rem #06b6d4;
+    transition: transform 0.5s ease;
+  }
+  
+  @media (max-width: 1024px) {
+    .image-box {
+      width: 25em;
+      height: 25em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .image-box {
+      width: 18em;
+      height: 18em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-box {
+      width: 15em;
+      height: 15em;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .image-box {
+      width: 12em;
+      height: 12em;
+    }
+  }
+  

@@ -1,0 +1,181 @@
+/* Container styles */
+.about-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+}
+
+/* Responsive adjustments for the container */
+@media (max-width: 1024px) {
+    .about-container {
+        flex-direction: row;
+        gap: 2;
+    }
+}
+
+/* Image container and responsive image adjustments */
+.image-container {
+    width: 50%;
+    padding: 10px;
+}
+
+.image-box {
+    width: 20em;
+    height: 20em;
+    margin-top: 10%;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 4.5rem #06b6d4;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeInScale 1.2s forwards ease-out;
+}
+
+/* Adjust image size for tablets */
+@media (max-width: 768px) {
+    .image-box {
+        width: 15em;
+        height: 15em;
+    }
+}
+
+/* Adjust image size for mobile phones */
+@media (max-width: 480px) {
+    .image-box {
+        width: 12em;
+        height: 12em;
+    }
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Text container and responsive adjustments */
+.text-container {
+    width: 50%;
+    margin-top: 10%;
+    padding: 10px;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideIn 1s forwards ease-out;
+}
+
+/* Adjust text container width and margins for smaller screens */
+@media (max-width: 1024px) {
+    .text-container {
+        width: 100%;
+        margin-top: 2rem;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .text-container {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-container {
+        padding: 5px;
+        font-size: 0.85rem;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* Adjust h1 size for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+h1 .highlight {
+    color: #06b6d4;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+/* Adjust h3 size for smaller screens */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.1rem;
+    }
+}
+
+.description {
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Hover effects for the image */
+.image-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5.5rem #06b6d4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the button */
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #06b6d4;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #034c63;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* Hover effect for h1 */
+.text-container h1:hover {
+    color: #034c63;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for h3 */
+.text-container h3:hover {
+    color: #06b6d4;
+    transition: color 0.3s ease;
+}
+
