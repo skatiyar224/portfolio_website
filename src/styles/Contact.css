@@ -1,0 +1,15 @@
+ /*Using custom futura pt book font*/
+ @font-face {
+    font-family: 'MyCustomFont';
+    src: url('../assets/fonts/futura-pt-book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'FuturaptbookFont', sans-serif;
+  }
+
+  .description{
+    font-family: "futuraptbookfont",sans-serif;
+  }

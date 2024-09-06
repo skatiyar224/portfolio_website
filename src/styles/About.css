@@ -91,7 +91,7 @@
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3rem !important; 
 }
 
 /* Adjust h1 size for smaller screens */
@@ -105,9 +105,7 @@ h1 .highlight {
     color: #06b6d4;
 }
 
-h3 {
-    font-size: 1.3rem;
-}
+
 
 /* Adjust h3 size for smaller screens */
 @media (max-width: 768px) {
@@ -181,3 +179,18 @@ button:hover {
     transition: color 0.3s ease;
 }
 
+ /*Using custom futura pt book font*/
+ @font-face {
+    font-family: 'MyCustomFont';
+    src: url('../assets/fonts/futura-pt-book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'FuturaptbookFont', sans-serif;
+  }
+
+  .description{
+    font-family: "futuraptbookfont",sans-serif;
+  }

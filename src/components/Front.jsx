@@ -6,7 +6,7 @@ import "../styles/Front.css";
 
 function Front() {
   return (
-    <div className="w-full full-page">
+    <div className="w-full full-page front">
       <div className="max-w-[80%] front-container mx-auto flex items-center justify-between">
         <div className=" text-area  mt-[10%]">
           <h3 className="text-[1.7rem] intro-text leading-none">
