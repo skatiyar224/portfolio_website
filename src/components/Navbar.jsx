@@ -21,7 +21,9 @@ function Navbar() {
         <div className={`links flex tabbox font-semibold text-md ${isMenuOpen ? "block" : "hidden"} md:flex`}>
           {["Home", "About", "Skill", "Projects", "Contact"].map(
             (elem, index) => (
-              <a className="tabicons" key={index} onClick={closeMenu}>{elem}</a>
+              <div className="box rounded-full">
+                <a className="tabicons " key={index} onClick={closeMenu}>{elem}</a>
+              </div>
             )
           )}
         </div>

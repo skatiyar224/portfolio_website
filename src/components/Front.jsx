@@ -14,10 +14,10 @@ function Front() {
           </h3>
           <h1 className="name">Shivam Katiyar</h1>
           <h3 className="text-[1.3rem] role">
-            And I am a FullStack{" "}
+            And I am a {" "}
             <span className="text-[#06b6d4] highlight">
               <Typewriter
-                words={["Developer", "Designer"]}
+                words={["FullStack Developer", "FullStack Designer"]}
                 loop={false}
                 cursor={true}
                 cursorStyle="|"
