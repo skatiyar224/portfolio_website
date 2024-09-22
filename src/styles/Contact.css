@@ -10,6 +10,33 @@
     font-family: 'FuturaptbookFont', sans-serif;
   }
 
+  
+
   .description{
     font-family: "futuraptbookfont",sans-serif;
   }
+
+
+  @media (max-width: 1440px) {
+    .wrapper .input{
+      margin-top: 10rem;
+    }
+    .box h1{
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .wrapper{
+      flex-wrap: wrap;
+    }
+
+    .wrapper .input{
+      margin-top: 0;
+    }
+
+    .box h1 span{
+      text-align: center;
+    }
+  }
+

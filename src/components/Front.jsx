@@ -36,16 +36,16 @@ function Front() {
           </div>
         </div>
 
-        <div className="w-[60%] px-5 py-10 image-area">
+        <div className=" px-5 py-10 image-area">
           <div
             style={{ boxShadow: "0 0 4.5rem #06b6d4" }}
-            className="w-[25em] h-[25em] mt-10 rounded-full ml-20 image-box overflow-hidden"
+            className="mt-10 rounded-full image-box overflow-hidden"
           >
-            <img
-              className="object-cover image"
-              src={Portfolio_image}
-              alt=""
-            />
+          <img
+            className="object-cover image"
+            src={Portfolio_image}
+            alt=""
+          />
           </div>
         </div>
       </div>

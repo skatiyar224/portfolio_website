@@ -91,43 +91,56 @@
   }
   
   .image-box {
-    width: 25em;
-    height: 25em;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 4.5rem #06b6d4;
     transition: transform 0.5s ease;
   }
+
+  @media (max-width: 1440px) {
+    .image-box {
+      width: 30rem;
+      height: 30rem;
+      margin-left: 5rem;
+    }
+    .image-area{
+      width: 60%;
+    }
+  }
   
   @media (max-width: 1024px) {
     .image-box {
-      width: 25em;
-      height: 25em;
+      width: 22rem;
+      height: 22rem;
+      margin-left: 4rem;
     }
   }
   
   @media (max-width: 768px) {
     .image-box {
-      width: 18em;
-      height: 18em;
+      width: 25rem;
+      height: 25rem;
+      margin-left: 6rem;
+    }
+    .image-area{
+      width: 100%;
     }
 
-    .image-area{
-      margin-left: -38%;
-    }
+     
   }
   
   @media (max-width: 480px) {
     .image-box {
-      width: 15em;
-      height: 15em;
+      width: 18rem;
+      height: 18rem;
+      margin-left: 0rem;
     }
   }
   
   @media (max-width: 360px) {
     .image-box {
-      width: 12em;
-      height: 12em;
+      width: 12rem;
+      height: 12rem;
     }
   }
   

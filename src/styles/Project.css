@@ -1,0 +1,36 @@
+  @media (max-width: 1440px) {
+    .project{
+        margin-top: 2rem;
+    }
+    .typewriter h2{
+        font-size: 5rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .project{
+        margin-top: 6rem;
+    }
+    .typewriter h2{
+        font-size: 5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .typewriter h2{
+        font-size: 4rem;
+    }
+    .project{
+        margin-top: 4rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .typewriter h2{
+        font-size: 1.8rem;
+    }
+    .project{
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+  }

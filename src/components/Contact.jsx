@@ -6,9 +6,9 @@ import '../styles/Contact.css';
 
 function Contact() {
   return (
-    <div className="max-w-[80%] mx-auto flex items-center justify-between pb-8">
-      <div className="w-full  mt-[10%] px-3 py-3">
-        <h1 className="text-[3rem]">
+    <div className="max-w-[80%] wrapper mx-auto flex items-center justify-between pb-8">
+      <div className="w-full box2 mt-[10%] px-3 py-3">
+        <h1 className="">
           Contact <span className="text-[#06b6d4]">Me</span>
         </h1>
         <h3 className="text-[1rem] leading-none">Let's Work Together</h3>
@@ -37,8 +37,8 @@ function Contact() {
         </div>
       </div>
 
-      <div className="flex flex-col px-8 py-6">
-        <div className="mt-[10rem]">
+      <div className="flex input flex-col px-8 py-6">
+        <div className="">
           <form action="">
             <input
               className="w-full mt-5 p-3 rounded-md bg-zinc-600 opacity-60 outline-none"

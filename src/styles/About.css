@@ -23,7 +23,7 @@
     padding: 10px;
 }
 
-.image-box {
+.image-box2 {
     width: 20em;
     height: 20em;
     margin-top: 10%;
@@ -37,15 +37,18 @@
 
 /* Adjust image size for tablets */
 @media (max-width: 768px) {
-    .image-box {
-        width: 15em;
-        height: 15em;
+    .image-box2 {
+        width: 18em;
+        height: 18em;
     }
 }
 
 /* Adjust image size for mobile phones */
 @media (max-width: 480px) {
-    .image-box {
+    .about-container .image-container{
+        display: none;
+    }
+    .image-box2 {
         width: 12em;
         height: 12em;
     }
@@ -143,7 +146,7 @@ h1 .highlight {
 }
 
 /* Hover effects for the image */
-.image-box:hover {
+.image-box2:hover {
     transform: scale(1.05);
     box-shadow: 0 0 5.5rem #06b6d4;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
